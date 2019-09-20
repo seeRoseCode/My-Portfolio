@@ -1,15 +1,14 @@
 import React from 'react';
 import Profile from './components/profile'
+import NavBar from './components/navbar'
 import bckgrnd from './images/rose-background-1.jpg';
-import logo from './images/logo.png'
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div className="banner">
-        <img className="logo" src={logo} />
-      </div>
+      <NavBar />
       <Profile />
 
     </div>
