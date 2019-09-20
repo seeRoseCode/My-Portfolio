@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import profile from '../images/photo-collage.jpeg'
 
-class Profile extends Component {
+function Profile(){
 
-  render(){
     return(
       <div className="container">
         <img className="profile-pic" src={profile} alt="It's My Face!" />
@@ -12,7 +11,7 @@ class Profile extends Component {
         </div>
       </div>
     )
-  }
+  
 
 }
 
