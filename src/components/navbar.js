@@ -1,5 +1,12 @@
 import React, { Component } from 'react'
+import logo from '../images/logo.png'
 
-class NavBar extends Component {
-  
+function NavBar(){
+  return(
+    <div className="banner">
+      <img className="logo" src={logo} />
+    </div>
+  )
 }
+
+export default NavBar;
