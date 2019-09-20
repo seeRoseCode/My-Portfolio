@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("./images/rose-background-1.jpg");
+  background-position: top;
+  border: solid white 10px;
 }
 
 code {
