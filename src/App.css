@@ -4,35 +4,39 @@
   background-position: top;
   height: 300vh;
   width: 100%;
+  display: inline-block;
 }
 
 .logo {
-  height: 200px;
+  height: 150px;
 
 }
 
-.banner {
+.navbar {
   width: 100%;
   display: inline-block;
   background-color: brown;
-  height: 100px;
+  height: 75px;
 }
 
-.container {
+.test {
+  height: 50px;
+  width: 50px;
+}
+
+.profile {
   position: relative;
-  width: 400px;
-  height: 300px;
-  border: solid white 20px;
+  width: 500px;
+  height: 400px;
   padding: 10px;
   margin: 20px;
   border: solid white 5px;
-  float: left;
 }
 
 .profile-pic {
   display: block;
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 400px;
 }
 
 .overlay {
@@ -48,7 +52,7 @@
   background-color: brown;
 }
 
-.container:hover .overlay {
+.profile:hover .overlay {
   opacity: 0.75;
 }
 
@@ -62,4 +66,18 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.projects {
+  height: 400px;
+  width: 610px;
+  padding: 10px;
+  margin: 20px;
+  border: solid white 5px;
+  float: left;
+  display: inline-block;
+}
+
+.test {
+  display: inline-block;
 }
