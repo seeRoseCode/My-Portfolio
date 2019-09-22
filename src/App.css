@@ -8,15 +8,15 @@
 }
 
 .logo {
-  height: 150px;
-
+  height: 75px;
+  border: solid white 10px;
 }
 
 .navbar {
   width: 100%;
   display: inline-block;
   background-color: brown;
-  height: 75px;
+  height: 50px;
 }
 
 .test {
@@ -26,8 +26,8 @@
 
 .profile {
   position: relative;
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
   padding: 10px;
   margin: 20px;
   border: solid white 5px;
@@ -35,8 +35,9 @@
 
 .profile-pic {
   display: block;
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
 }
 
 .overlay {
@@ -78,6 +79,32 @@
   display: inline-block;
 }
 
+.video{
+  position: relative;
+}
 .test {
   display: inline-block;
+}
+
+.medium-widget{
+  height: auto;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+}
+
+th{
+  width: auto;
+  padding: 20px;
+  margin: 20px;
+  color: brown;
+  font-size: 300%;
+}
+
+.heading{
+  height: 50px;
+  width: auto;
+  text-decoration: underline;
+  text-shadow: 50px;
+  color: white;
 }

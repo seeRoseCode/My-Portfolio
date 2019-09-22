@@ -9,11 +9,9 @@ function Profile(){
         <img className="profile-pic" src={profile} alt="It's My Face!" />
         <div className="overlay">
           <div className="text">
-          I love people, Ruby, and indoor plants.
-          <br/>
-          <a href={resume} download>
-          Resume Download
-          </a>
+            I love people, Ruby, and indoor plants.
+            <br/>
+            <a href={resume} download>Download My Resume</a>
           </div>
         </div>
       </div>
