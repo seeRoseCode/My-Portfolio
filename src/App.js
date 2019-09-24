@@ -1,8 +1,9 @@
 import React from 'react';
-import Profile from './components/profile'
-import NavBar from './components/navbar'
-import Projects from './components/projects'
-import Blogs from './components/blogs'
+import Profile from './components/Profile'
+import NavBar from './components/Navbar'
+import Projects from './components/Projects'
+import Blogs from './components/Blogs'
+import Tweets from './components/Tweets'
 import bckgrnd from './images/rose-background-1.jpg';
 
 import './App.css';
@@ -12,29 +13,26 @@ function App() {
     <div className="App">
       <NavBar />
       <table>
-        <tr>
-          <td><Profile /></td>
-
+        <tr align="center" className="profile-container">
+          <Profile />
         </tr>
         <tr>
-          <th>
-            <div class="heading">
-              BLOGS
-            </div>
-          </th>
-          <th>
-            <div class="heading">
-              PROJECTS
-            </div>
-          </th>
+          <th>TWEETS</th>
         </tr>
         <tr>
-          <td>
-          <Blogs />
-          </td>
-          <td>
-            <Projects />
-          </td>
+          <td><Tweets /></td>
+        </tr>
+        <tr>
+          <th>BLOGS</th>
+        </tr>
+        <tr>
+          <td><Blogs /></td>
+        </tr>
+        <tr>
+          <th>PROJECTS</th>
+        </tr>
+        <tr>
+          <td><Projects /></td>
         </tr>
       </table>
     </div>
