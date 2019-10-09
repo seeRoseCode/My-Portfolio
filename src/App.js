@@ -5,6 +5,8 @@ import Projects from './components/Projects'
 import Blogs from './components/Blogs'
 import Tweets from './components/Tweets'
 import bckgrnd from './images/rose-background-1.jpg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import './App.css';
 
